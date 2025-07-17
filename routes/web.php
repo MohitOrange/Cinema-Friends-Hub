@@ -26,5 +26,5 @@ Route::get('/login', function () {
     return view('components/login');
 })->name('login');
 
-Route::post('/register', [LoginController::class, 'viewpage']);
+Route::get('/register', [LoginController::class, 'viewpage']);
 Route::post('/addUser', [LoginController::class, 'adduserss']);

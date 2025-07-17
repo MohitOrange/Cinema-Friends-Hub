@@ -12,7 +12,7 @@ class LoginController extends Controller
     }
 
     public function adduserss(Request $request){
-        dd($request->all());
-    //    Login::create($request->all());
+        // dd($request->all());
+       Login::create($request->all());
     }
 }
