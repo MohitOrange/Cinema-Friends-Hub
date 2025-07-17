@@ -85,7 +85,7 @@
             @enderror
           </div>
 
-          <div class="relative pb-4">
+          {{-- <div class="relative pb-4">
             <input 
               type="password" 
               id="password_confirmation" 
@@ -95,7 +95,7 @@
               required
             >
             <label for="password_confirmation" class="absolute pl-4 left-0 -top-3.5 text-xs text-blue-300 transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-xs peer-focus:text-blue-300">Confirm Password</label>
-          </div>
+          </div> --}}
 
           <!-- Animated Submit Button -->
           <button 
